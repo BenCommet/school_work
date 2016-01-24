@@ -1,0 +1,41 @@
+- Software Process
+	# organizes into set, interrelationship betw. phases, deliverables, criteria for moving on
+	# difference between models is order and frequency of the phases, also how you measure progress
+
+- Waterfall Model
+	# Systematic, sequential, big design up-front, document-driven approach too developing large software systems
+	# All about does docs
+	# Systemm Requirements => Software Requirements => Analysis => Program Design => Coding => Testing => Operations
+	# Can be reversed cause duh, also can go back multiple steps
+	- Disadvantages
+		# Documentation is the biggest issue, tons and tons of it
+		# nothing to show til late in dev stages
+		# Major problems not discovered until late
+		# People have to wait around while the doc peeps do what the doc peeps do
+
+- Iterative and Incremental Development
+	# waterfall only really practical for small projects
+	# bunch of smaller waterfalls, trickle trickle trickle
+	# Lets you do things in "stages"/releases
+	#
+
+- Spiral Model
+	# Risk Driven model
+	# Lots of prototyping
+	# Potentially overkill in small projects
+
+- Rational Unified Process
+	# Mature, very inclusive, heavyweight process
+	# Designed for large projects
+	# RUP is software sold by IBM for using this process
+	# Develop iteratively, manage requirements, use componenet based arch, UML, verify quality, Control changes to software 
+
+- Agile Process Models
+	# Lightweight flexible
+	# Not as arsed about documentation
+	# agilemanifesto.org
+	#
+- Extreme Programming (XP)
+	# Use user stories
+	# Extreme because makes pace redonkulous as possible
+

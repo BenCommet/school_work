@@ -1,0 +1,53 @@
+- countably infinite unionn of countably infinite sets is countably infinite
+	# go thorugh them diagonally
+
+-algebraic number - zero of some polynomial with integer coeffecients
+	# rational -> x = p/q =>qx - p
+	# root -> sqrt(a) = x^2 - a
+	* The set of algebraic numbers is countably infinite
+		#PROOF there are countably many degree n polynomials with integer coefficients.
+		Each has at most n roots. Thus there are countably many roots for each n, and overall.
+		This means there are countable n's with countable roots meaning the algebraic numbers are countable
+		EX: p(x) = Ax^3 + Bx^2 + Cx + D
+
+-The open interval (0,1) is uncountable?
+	PROOF BY CONTRADICTION
+	Assume (0,1) is countable, list elements then if ya can in nonterminating decimal form
+	x1 = .x11x12x13....
+	x2 = .x21x22x23...
+	x3 = .x31x32x33...
+
+	construct a decial not on the list.
+	let d =.d1d2d3d4...
+	d1 change x11, d2 change x22, d3 change x33.....
+	
+	construct a decimal not on the list. Let d = .d1d2d3..... with dn={if!=1+ 2 else = 1} now d differs form each xi, so it isn't on the list
+	thus(0,1) is uncountable
+
+-fancy(R) has a 1-1 correspondence with (0,1) via y = tan(piX - pi/2)
+	so |R| = (0,1)
+	(X^3 graph)
+	
+-Transcendental number
+	#real, not algebraic though
+	ex: pi and e are tanscendental
+	The tanscendental numbers are uncountable
+		(if not, the reals (union of trancendentals are real algebraic numbers) would be countable.)
+
+-Shroder_Bernstein Theorem
+	if |A| <= |B| and |A| >= |B| Then |A| == |B|
+	Idea: There are 1-1 functions f:A->K and g:B->A. Construct a sequence by alternation functions. 
+	#Three Cases:
+		A....................
+		B....................
+	1. link diagonally starting horizontally at a
+	2. same but with b
+	3. loop back
+	use them to construct bijection
+	
+	Map(X,Y) = (.x1x2x3x4...., .y1y2y3y4
+	to .x1...
+	Thus |R| = |R^2|
+		
+	
+		 
