@@ -1,0 +1,7 @@
+-uncomputable function = no computer program can compute its values
+	Idea: set of computer programs (strings of characters is countable. Uncountably many functions
+Idea: Any number in (0,1) has a binary expansion. represent a subset of natural numbers using 1 for "included", 0 for "excluded". Results in 1 - 1 correspondence. Eg binary
+
+-Cantor's theorem |s| < |P(s)|
+	PROOF
+	We see |s| <= |P(s)| byy mapping x E S to {x

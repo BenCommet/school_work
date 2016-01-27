@@ -1,0 +1,7 @@
+-Lexical analysis = scanning
+	#performed by scanner (lexical analyzer)
+	#Scanner reads characters in source and groups them into tokens
+	#removes comments from source
+	#saves text of interesting tokens, identifiers and literals
+	#tags taken with line and column numbers which helps in generation of high-quality error messages in subsequent phases.
+

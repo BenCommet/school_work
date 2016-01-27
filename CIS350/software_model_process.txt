@@ -39,3 +39,11 @@
 	# Use user stories
 	# Extreme because makes pace redonkulous as possible
 
+-Prototyping
+	#Lets you get feedback from users
+	#does it work?
+	#tool for eliciting customer requirements
+	#how feasable is this shizz?
+	*Types of Prototyping
+		#Throwaway`
+		#Evolutionary
