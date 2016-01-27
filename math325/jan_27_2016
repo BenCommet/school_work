@@ -1,0 +1,24 @@
+-Induction (PMI)
+	1. BaseStep : Prove P for small value(s) - often n = 0 or 1
+	2. Induction Step : Assume P(k) for arbitrary k - Inudction Hypothesis - used to prove P(k+1)
+	3. Conclusion : P(n) is true for all n >= 0
+
+	P(K) is a temporary assumption to prove P(k) -> p(k+ 1)
+	#EXAMPLE	
+		Sum of the first n natural numbers = (n(n+1))/2
+		1. Base Step : n = 1 plug in 1 (1(1+1)/2 = 2/2 = 1 = TRUE
+		2. Induction Step : (k(k+1))/2 -> k(k+1)/2 + k+1 = Induction Hypothesis -> (k(k+1) + 2(k+1))/2
+		3. Conclusion : n(n+1)/2 for all n>=1
+
+	#EXAMPLE
+		n is an element of fancy(z), n >= 0, 3|(4^N - 1)
+		1. Base 4^0 - 1 = 0 = 3* 0
+		2. Induction assume 3|(4^k - 1) for some k >= 0, so 4^k - 1 = 3x , x is an element of fancy(z)
+		Then 4^k+1 - 1 = 4*4^k - 1 -> 4(4^k -1) + 3 -> 4(3x) + 3 = INDUCTION HYPOTHESIS -> 3(4x + 1)
+		Thus 3/(4^n - 1) for n >= 0
+
+	#EXAMPLE
+		Tower of Hanoi
+		-3 pegs, n disks, larger are further down, how many moves
+		2^k-1
+
