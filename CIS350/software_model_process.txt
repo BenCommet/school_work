@@ -45,5 +45,6 @@
 	#tool for eliciting customer requirements
 	#how feasable is this shizz?
 	*Types of Prototyping
-		#Throwaway`
+		#Throwaway
 		#Evolutionary
+
