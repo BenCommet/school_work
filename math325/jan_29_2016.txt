@@ -1,0 +1,17 @@
+Show 2^n >= n^2 FOR N >= =, N != 3
+	Base: n = 0 -> 1 >= 0
+	n = 4 -> 16 = 16
+	Induction: 2^(k) >= k^2 for k >= 4
+	want to show 2^(k+1) >= (k+1)^2
+	Then 2(k+1) -> 2*2^k>=2k^2-> k^2 + k^2
+	k^2 + 4k
+	k^2 +2k +2k
+	k^2 + 2k + 8 >k^2 + 2k + 1
+
+-Recursive Definitions
+	Initial Value(s)
+	Recursive Formula
+	EX. Factorial 0! = 1, n! = n*(n-1)! n >= 1
+	Ex. Exponentiation a^0 = 1, a^n = a*a^(n-1), n >= 1
+	Ex. s0 = 0, sn+1 = sn + (2n +1), N >= 0
+	Find explicit formula
