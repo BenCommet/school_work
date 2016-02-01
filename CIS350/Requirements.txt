@@ -1,0 +1,18 @@
+-Critical role of Requirements
+	#Hardest part, decided what to build
+	#interfaces are stupid or something, gotta figure out how the actors will be interacting with schtuffs
+	#Super crippling if you make boom boom
+	
+-Functional v. Non-Functional
+	#Functional are what software needs to do
+	#Nonfunctional are silly things like budgets and time... Pschhhhhhhhhhh
+
+-Requirements Engineering and Development
+	#Questions, surveys, demos, mockups
+
+-Requirements Elicitation
+	#Functional requirements, Business rules, quality attributes, External interface requirements, Constraints, Data definitions, Solution ideas
+
+-Requirements Management - Change Control, Version Control, Requirements status tracking, Requirements tracing
+
+
