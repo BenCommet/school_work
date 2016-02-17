@@ -1,0 +1,34 @@
+-Type system - mechanism to use and define types and associate them with constructs.
+	#equivalence - are same
+	#compatibility - int to float
+	#inference - rules based on expression given
+
+-Type checking - process of making sure program obeys type compatibility rules
+
+-Statically Typed Language
+	#vars are declared to have a certain type before use
+	#type cannot change
+	#All or most checking done at compile time
+	#Less flexibility but also less run time overhead
+	#Java, C, C++
+
+-Dynamically Typed Language
+	#not declared before use
+	#type of value assigns to a variable determines it's type
+	#Variables type can change
+	#error checking to catch type issues
+	#more flexible, more run time overhead
+
+-Strongly Typed Language
+	#Type system enforced rigorously
+	#types detected @ comp. or run w/appropriate error messages
+
+-Weakly Typed
+	#type system not rigourous
+	#allows and connects(through implicit type conversions) type errors for which there is no error generation either at compile-time or run-time
+	#may produce undisirable results and/or corrupt data.
+	#May produce undesirable results and/or corrupt data.
+	#C, JavaScript
+
+Scalar vs Nonscalar Types
+	#Nonscalar ar generally defined by user
